@@ -5,11 +5,11 @@ entries:
       catalog.cattle.io/namespace: fleet-default
       catalog.cattle.io/type: cluster-template
     apiVersion: v1
-    created: "2023-05-11T15:09:22.418434+05:30"
+    created: "2023-05-11T15:10:57.281509+05:30"
     description: Cluster template for rke2
-    digest: a01bde764c245cd924651f4a56dfa412799218302e8b61965206e50c10327719
+    digest: dcac4c23697f7c838ca0b704236b113a85b0ad1970d51bd6eb08c62ee099cef3
     name: cluster-template
     urls:
     - https://github.kyndryl.net/rhocp41test1/mscp-rancher-templates.git/cluster-template-0.0.1.tgz
     version: 0.0.1
-generated: "2023-05-11T15:09:22.417946+05:30"
+generated: "2023-05-11T15:10:57.281042+05:30"
