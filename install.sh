@@ -1,6 +1,6 @@
 helm lint charts/rancher-aws-cluster-template
 echo -e "User-Agent: *\nDisallow: /" > robots.txt 
-helm package charts/rancher-aws-cluster-template
+helm package charts/
 helm repo index --url https://github.kyndryl.net/rhocp41test1/mscp-rancher-templates.git .
 cat index.yaml
 git add .
