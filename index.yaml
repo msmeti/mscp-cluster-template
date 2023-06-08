@@ -5,7 +5,7 @@ entries:
       catalog.cattle.io/namespace: fleet-default
       catalog.cattle.io/type: cluster-template
     apiVersion: v1
-    created: "2023-06-08T19:42:41.591592+05:30"
+    created: "2023-06-08T19:54:11.973741+05:30"
     description: Cluster template for rke2
     digest: d372363c814ac79e7d1f4b877e9b47ec39eaf3fde5a70137a0074dfa70e3dd2c
     name: cluster-template
@@ -17,12 +17,12 @@ entries:
       catalog.cattle.io/namespace: fleet-default
       catalog.cattle.io/type: cluster-template
     apiVersion: v1
-    created: "2023-06-08T19:42:41.591736+05:30"
+    created: "2023-06-08T19:54:11.973908+05:30"
     description: RKE2 Cluster template for AWS
-    digest: efbb234cf3865906273207b863a18978496a587026610f15350d5fb2835a59a1
-    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png
+    digest: 95a10d041512d190f60da37f47bd1bf178abe05dc4d884534acb04eca9945a58
+    icon: https://zeevector.com/wp-content/uploads/Kyndryl-Logo-White-PNG.png
     name: rancher-aws-cluster-template
     urls:
     - https://github.com/msmeti/mscp-cluster-template.git/rancher-aws-cluster-template-0.2.1.tgz
     version: 0.2.1
-generated: "2023-06-08T19:42:41.591156+05:30"
+generated: "2023-06-08T19:54:11.973012+05:30"
