@@ -1,0 +1,27 @@
+questions:
+- variable: cluster.name
+  description: "Specify the name of the cluster"
+  label: "Cluster Name"
+  required: true
+  type: string
+  group: "General"
+- variable: cloudCredentialSecretName
+  description: "CloudCredentialName for provisioning cluster"
+  label: "CloudCredential Name"
+  type: cloudcredential
+  group: "General"
+- variable: nodepool.size
+  label: "VM Size"
+  type: enum
+  options:
+    - s-2vcpu-4gb
+    - s-4vcpu-8gb
+    - s-6vcpu-16gb
+  description: "Size of each VM"
+  group: "Nodepools"
+- variable: nodepool.count
+  description: "Specify node count"
+  type: int
+  required: true
+  label: "Node count"
+  group: "Nodepools"
